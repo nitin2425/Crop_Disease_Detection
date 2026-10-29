@@ -1,0 +1,11 @@
+# App
+fastapi
+uvicorn[standard]
+python-multipart
+ultralytics
+opencv-python
+
+# Training notebook only
+jupyter
+pandas
+pyyaml

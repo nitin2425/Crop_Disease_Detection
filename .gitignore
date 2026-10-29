@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset and training output (large, re-creatable)
+training/Plants*/
+training/*.zip
+training/runs/
+training/data_local.yaml
+
+# Model weights: keep only the trained one used by the app
+*.pt
+!app/models/best.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
